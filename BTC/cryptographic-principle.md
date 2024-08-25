@@ -1,10 +1,5 @@
 # L1 Cryptographic Principle
 
-crypto currency
-
-哈希
-签名
-
 # Hashing
 
 ## Cryptographic Hash Functions
