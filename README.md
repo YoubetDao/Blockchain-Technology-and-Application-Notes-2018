@@ -58,6 +58,8 @@ This repository includes the following:
 
 Contributions to this repository are welcome! If you have additional notes, corrections, or resources related to this course, feel free to submit a pull request.
 
+If you’d like to contribute to a specific chapter, please find the corresponding issue in the issue list and leave a comment there.
+
 ## License
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
