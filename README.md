@@ -1,6 +1,6 @@
 # Blockchain-Technology-and-Application-Notes-2018
 
-Welcome to the **Blockchain-Technology-and-Application-Notes-2018** repository! This repository contains notes, resources, and references for the course "Blockchain Technology and Application," taught by Professor Zhen Xiao in 2018.
+Welcome to the **Blockchain-Technology-and-Application-Notes-2018**! This repository contains notes, resources, and references for the course ["Blockchain Technology and Application"](https://www.bilibili.com/video/BV1Vt411X7JF) taught by Professor Zhen Xiao in 2018.
 
 ## Overview
 
