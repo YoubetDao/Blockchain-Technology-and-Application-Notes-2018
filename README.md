@@ -31,21 +31,18 @@ This course focuses on the fundamental concepts and implementation principles of
 12. **Reflections on Bitcoin**
 
 ### Ethereum
-1. **Overview**
-2. **Accounts**
-3. **State Trees**
-4. **Transaction and Receipt Trees**
-5. **GHOST Protocol**
-6. **Mining Algorithms**
-7. **Difficulty Adjustment**
-8. **Proof of Stake (PoS)**
-9. **Smart Contracts**
-10. **The DAO Incident**
-11. **Reflections on Ethereum**
-12. **Ethereum Classic (ETC)**
-
-### Conclusion
-- **Conclusion**
+14. **Overview**
+15. **Accounts**
+16. **State Trees**
+17. **Transaction and Receipt Trees**
+18. **GHOST Protocol**
+19. **Mining Algorithms**
+20. **Difficulty Adjustment**
+21. **Proof of Stake (PoS)**
+22. **Smart Contracts**
+23. **The DAO Incident**
+24. **Reflections on Ethereum**
+25. **Ethereum Classic (ETC)**
 
 ## Course Materials
 
