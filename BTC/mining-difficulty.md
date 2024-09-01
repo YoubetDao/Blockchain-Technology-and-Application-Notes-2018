@@ -4,7 +4,7 @@
 
 Mining is to continuously try the `nonce` value in the block header so that the hash value of the entire block header is less than or equal to the given target threshold. That is, $H(block \; header) \leq target$. The smaller the `target`, the greater the mining difficulty.
 
-The mining difficulty is inversely proportional to the `target`, that is, $difficulty=\frac{difficulty\_1\_target}{target}$, where `difficulty_1_target` refers to the `target` corresponding to the mining difficulty of 1. The minimum mining difficulty is 1.
+The mining difficulty is inversely proportional to the `target`, that is, $difficulty=\frac{difficulty1target}{target}$, where `difficulty_1_target` refers to the `target` corresponding to the mining difficulty of 1. The minimum mining difficulty is 1.
 
 ## Adjust mining difficulty
 
