@@ -99,4 +99,5 @@ How can we prove that Transaction 2 (tx2) exists? We only have the Merkle Root (
   - In the context of Merkle trees, the time complexity for verifying a Merkle proof is **O(log n)**, where **n** is the number of leaf nodes (transactions) in the tree. This is because you only need to traverse up the tree using the hash values provided in the proof, which involves a logarithmic number of steps relative to the total number of transactions.
 - Proof of non-membership O(n)
   - We need to query all the transactions from the full nodes and check it's non-existence.
+  - Sorted Merkle tree which sorted by transactio hash is similar to the binary search tree. We can use a Merkle tree to prove the non-existence of a transaction for O(log(n)) time complexity, although this structure is not used in Bitcoin.
 
