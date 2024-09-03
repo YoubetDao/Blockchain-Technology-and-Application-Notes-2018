@@ -18,7 +18,7 @@ This course focuses on the fundamental concepts and implementation principles of
 
 ### Bitcoin
 2. **[Cryptographic Principles](./BTC/cryptographic-principle.md)**
-3. **Data Structures**
+3. **[Data Structures](./BTC/data-structures.md)**
 4. **Consensus Protocols**
 5. **Implementation**
 6. **Network**
