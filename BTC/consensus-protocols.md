@@ -39,11 +39,11 @@ Every Bitcoin transaction includes **inputs**, **outputs**, and **signature**.
 2. Output section: Output section includes the recipient's public key hash;
 3. Signature: The sender uses his private key to sign the transaction, which is then cross-verified with the sender's public key hash.
 
-
+# Consensus Protocol
 In the Bitcoin system, due to the potential presence of malicious nodes, it is necessary to determine which node has the right to write transactions into the blockchain.
 Bitcoin employs a voting mechanism based on computational power rather than account numbers to prevent **Sybil attacks**.
 
-This computational power-based voting, also known as **Proof of Work**, involves brute-forcing a system-preset random number `nonce`, with the node that solves it first gaining the right to write into the block and receiving BTC rewards.
+This computational power-based voting, also known as **Proof of Work**, involves brute-forcing a system-preset random number `nonce`, with the node that solves it first gaining the right to write into the block and receiving BTC rewards. The rewards started at 50 btc per block and halved precisely every 210,000 blocks(approximately every four years)
 
 Additionally, to prevent forking attacks, it is stipulated that only blocks on **the longest valid chain** are accepted, and blocks on non-longest valid chains are discarded.
 
