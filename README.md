@@ -51,6 +51,63 @@ This repository includes the following:
 - References to the course videos.
 - Supplementary slides for various topics covered in the course.
 
+## Event
+
+### Program Structure
+
+This is an open 8-week learning plan, divided into two phases: BTC and ETH.
+
+The first half focuses on general understanding of blockchain and Bitcoin fundamentals. The second half will cover practical and reflective topics around Ethereum, smart contracts, and related concepts. Each track will include deeper dives into specific topics in the R&D field.
+
+Each online session will be hosted by core developers and researchers, with pre-session reading materials provided to familiarize you with the topics and terminology, and post-session activities to reinforce and solidify your understanding.
+
+Weekly themes, presentations, and materials can be found in this folder. Check the study group content starting from Week 0 in this folder.
+
+### Schedule
+
+The first part of the program includes 4 weeks of blockchain knowledge and an introduction to BTC.
+
+**Date | Topic | Speaker**
+
+October 3 | Course Introduction | Bitcoin | Weir
+October 8 | Cryptographic Principles | Data Structures | Douzi
+October 10 | Consensus Protocols | Execution | Weir
+October 15 | Networking | Mining Difficulty | Douzi
+October 17 | Mining | Scripting | Weir
+October 22 | Forks | Q&A | Douzi
+October 24 | Anonymity | Reflections on Bitcoin | Weir
+
+The second part of the program will cover Ethereum and smart contracts. Detailed schedule to be announced.
+
+### Participation
+
+The first instance of the study group will begin in October 2024. It is completely open and permissionless, and each participant can choose how they wish to engage. Whether you want to learn as much as possible, focus only on specific topics, or share your knowledge with others, you are welcome. Although it is open, you can register to help us better tailor the experience.
+
+Join our community Discord server.
+
+Study group participants will collaboratively develop a comprehensive wiki that will serve as a continuously evolving knowledge base for current and future core developers. This will provide students with hands-on experience in contributing to open-source resources while gaining valuable experience in documentation writing and community-driven development.
+
+The study group is open to anyone interested in learning the inner workings of blockchain, Bitcoin, and Ethereum protocols. Those with some general knowledge or experience with Ethereum and/or blockchain, as well as those with backgrounds in computer science, technology, or development, will benefit most from the program.
+
+### Important Links
+
+Discord Server: -
+Weekly Lecture Livestream: -
+
+### FAQs
+
+**Will I learn how to develop applications on the Ethereum blockchain?**
+No. This program does not focus on the development of Solidity or decentralized applications.
+
+**When does it start, and how long does it last?**
+The program will start in October 2024 and will last for 8 weeks, ending in late November.
+
+**Where is the study group located?**
+Like all Web3 remote teams, participants are spread globally. We will do our best to schedule calls at convenient times for participants.
+
+**Do I need to apply and be accepted?**
+The program is fully open, and anyone can join. We only ask that you submit a form to let us know your preferences, but this will not affect your participation.
+
 ## Contributing
 
 Contributions to this repository are welcome! If you have additional notes, corrections, or resources related to this course, feel free to submit a pull request.
