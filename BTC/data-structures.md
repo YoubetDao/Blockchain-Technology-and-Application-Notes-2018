@@ -1,4 +1,4 @@
-# Block Chain Data Structures
+# P3 Block Chain Data Structures
 
 ## Hash Pointers
 - A normal pointer in programming saves the target memory location.
@@ -16,7 +16,7 @@
 - Block Chain is a linked list using hash pointers.
 - The first block of the chain is called *genesis block*
 - The last block of the chain is the most recent block.
-- - Each Block has a hash pointing to the previous block, the hash of the most recent block is saved in the block chain system.
+- Each Block has a hash pointing to the previous block, the hash of the most recent block is saved in the block chain system.
 - The hash of a block is the result of applying a hash function to the entire content of the block.
 - The hash of a block is the content of the current block and the hash of the previous block. This creates a tamper-evident log. In other words, it is impossible to modify a node within the blockchain. If a node is modified, then all subsequent blocks must also be changed.
 
