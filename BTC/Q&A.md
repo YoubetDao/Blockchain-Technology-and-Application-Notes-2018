@@ -9,13 +9,13 @@ Possible. There is no need to notify anyone else when a Bitcoin account is creat
 ## What should be done if the private key of an account is lost?
 There is no way to retrieve the private key after it is lost.
 
-## What happens if the account's private key is compromised?
+## What happens if the account's private key is leaked?
 Transfer the funds from that account to a secure account as soon as possible.
 
 ## What should I do if I wrote the wrong address when making a transfer?
 It's not possible to cancel a transaction once it has been broadcast.
 
-## Transactions that are verified by the full node will be written to the blockchain, but `OP_RETURN` will unconditionally returns an error, how does the blockchain accept the block?
+## Transactions that are verified by the full node will be written to the blockchain, but the execution of `OP_RETURN` will unconditionally returns an error, how does the blockchain accept the block?
 OP_RETURN is written in the output script, and the output script of the current transaction will not be executed at the time of validation, and It will only be validated when the output is spent again.
 
 
