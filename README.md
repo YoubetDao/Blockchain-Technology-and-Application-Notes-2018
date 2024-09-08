@@ -26,7 +26,7 @@ This course focuses on the fundamental concepts and implementation principles of
 8. **Mining**
 9. **Scripting**
 10. **Forks**
-11. **Q&A**
+11. **[Q&A](./BTC/Q&A.md)**
 12. **Anonymity**
 13. **Reflections on Bitcoin**
 
