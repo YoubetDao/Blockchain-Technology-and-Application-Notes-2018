@@ -15,7 +15,7 @@
 **Emergence of Large Mining Pools**:
 
 - Individual miners often face unstable incomes, leading to the development of mining pools. Mining pools can be centralized (data center-like) or distributed (miners from different organizations). The pool allocates tasks, and miners are rewarded based on proof of work.
-- Mining pools also face challenges, such as miners potentially withholding blocks to keep the rewards for themselves or intentionally disrupting the pool by discarding mined blocks.
+- Mining pools also face challenges, such as intentionally disrupting the pool by discarding mined blocks.
 
 **51% Attack and Transaction Blocking**:
 
