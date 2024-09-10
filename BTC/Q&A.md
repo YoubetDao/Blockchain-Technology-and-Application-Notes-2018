@@ -1,4 +1,4 @@
-The section addresses some frequently asked questions.
+# P11 BTC - Q&A
 
 ## What happens when transferring a transaction if the recipient is not online?
 The transfer is only a record and does not require the recipient to be online
