@@ -57,6 +57,15 @@ Contributions to this repository are welcome! If you have additional notes, corr
 
 If you’d like to contribute to a specific chapter, please find the corresponding issue in the issue list and leave a comment there.
 
+### Contribution Guidelines
+
+When submitting a pull request (PR), please ensure that it includes a reference to any related issues. To automatically close issues when the PR is merged, include the following keyword in your PR description:
+
+- `closes #issue_number`
+- `fixes #issue_number`
+
+Replace `#issue_number` with the actual issue number. This helps us keep track of completed work and maintain our project’s organization. Thank you for your contributions!
+
 ## License
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
