@@ -1,0 +1,10 @@
+[book]
+authors = ["Youbet Study Group"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Blockchain-Technology-and-Application-Notes-2018"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
