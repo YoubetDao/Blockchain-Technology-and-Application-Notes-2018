@@ -17,16 +17,16 @@ This course focuses on the fundamental concepts and implementation principles of
 - **Introduction**
 
 ### Bitcoin
-2. **[Cryptographic Principles](BTC/cryptographic-principle.md)**
-3. **[Data Structures](./BTC/data-structures.md)**
-4. **[Consensus Protocols](./BTC/consensus-protocols.md)**
+2. **[Cryptographic Principles](./src/BTC/cryptographic-principle.md)**
+3. **[Data Structures](./src/BTC/data-structures.md)**
+4. **[Consensus Protocols](./src/BTC/consensus-protocols.md)**
 5. **Implementation**
 6. **Network**
 7. **Mining Difficulty**
 8. **Mining**
-9. **[Scripting](./BTC/scripting.md)**
+9. **[Scripting](./src/BTC/scripting.md)**
 10. **Forks**
-11. **[Q&A](./BTC/Q&A.md)**
+11. **[Q&A](./src/BTC/Q&A.md)**
 12. **Anonymity**
 13. **Reflections on Bitcoin**
 
