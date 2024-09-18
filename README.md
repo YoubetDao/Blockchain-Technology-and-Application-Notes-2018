@@ -21,7 +21,7 @@ This course focuses on the fundamental concepts and implementation principles of
 3. **[Data Structures](./src/BTC/data-structures.md)**
 4. **[Consensus Protocols](./src/BTC/consensus-protocols.md)**
 5. **Implementation**
-6. **Network**
+6. **[Network](./BTC/network.md)**
 7. **Mining Difficulty**
 8. **Mining**
 9. **[Scripting](./src/BTC/scripting.md)**
