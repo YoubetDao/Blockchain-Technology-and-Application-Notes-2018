@@ -14,7 +14,7 @@ This course focuses on the fundamental concepts and implementation principles of
 ## Course Outline
 
 ### Course Introduction
-- **Introduction**
+1. **Introduction**
 
 ### Bitcoin
 2. **[Cryptographic Principles](./src/BTC/cryptographic-principle.md)**
