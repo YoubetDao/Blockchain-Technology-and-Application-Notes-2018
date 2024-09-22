@@ -1,4 +1,4 @@
-# Transaction and Receipt Trees
+# P17 Transaction and Receipt Trees
 
 ## Transaction Tree and Receipt Tree
 
@@ -10,7 +10,7 @@ The nodes on the transaction tree and receipt tree are one-to-one corresponding.
 
 ## Bloom filter
 
-The Bloom filter data structure can support a relatively efficient search for whether an element is in a relatively large set.
+The **Bloom filter** data structure can support a relatively efficient search for whether an element is in a relatively large set.
 
 Bloom filters may produce **false positive**. Simple bloom filters do not support delete operations.
 
