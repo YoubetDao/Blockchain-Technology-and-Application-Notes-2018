@@ -18,20 +18,21 @@ Ethereum has made improvements to Bitcoin's operational issues in system design:
 
 In addition, Ethereum supports **smart contracts**.
 
-### 3 What is a decentralized contract? 
+### 3 How decentralized contract is inspired? 
 
-- After Bitcoin's success, people wonder what else can be decentralized.The emergence of Ethereum has added the characteristic of decentralized contracts. 
-- Bitcoin is decentralized currency, replacing government functions with technical means like cryptography and consensus mechanisms.
-- Ethereum has decentralized contracts. In real society, contracts are maintained by government through judicial means. Smart contracts on Ethereum replace judicial means with technical means.
-- Some contracts with simple and clear logic can be written as smart contracts, but not all contract content can be implemented in programming languages or quantified.
+- After the success of Bitcoin, people further think about what else we can decentralize.
 
-### 4 What are the benefits of decentralized contracts?
+- Bitcoin replaced government functions with technical means like cryptography and consensus mechanisms.
 
-- Decentralized currency like Bitcoin has an advantage in cross-border transfers compared to legal tender as it is faster despite some imperfections.
+- Ethereum replaced government judicial means with technical means to maintain the effectiveness of contracts.
 
-- In contracts with signatories from all over and no unified jurisdiction, judicial means are difficult for contract enforcement. Online crowdfunding with participants worldwide is an example.Even under the same jurisdiction, judicial contract enforcement is time-consuming and laborious. Winning a lawsuit doesn't guarantee getting money.
+- The contract can be implemented by code placed on the blockchain. Through the immutability of the blockchain, the effectiveness of the contract can be guaranteed. Some contracts with simple and clear logic can be written as smart contracts but not all.
 
-- Smart contracts have the advantage that once code is on the blockchain, it's immutable and everyone must execute according to the code rules, ensuring contract participants can't default.
+### 4 What are the benefits of decentralized currency and contracts?
+
+- **Faster cross-border transfer speed**: Decentralized currency like Bitcoin has an advantage in cross-border transfers compared to legal tender as it is faster despite some imperfections.
+
+- **Smart contracts are immutable**: everyone must execute according to the code rules, ensuring that contract participants cannot default.
 
 ### 5 Remaining course content
 
