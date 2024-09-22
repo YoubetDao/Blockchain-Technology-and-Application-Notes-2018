@@ -9,3 +9,4 @@
 - [Consensus Protocols](BTC/consensus-protocols.md)
 - [Scripting](BTC/scripting.md)
 - [Q&A](BTC/Q&A.md)
+- [Accounts](BTC/Accounts.md)
