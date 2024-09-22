@@ -47,8 +47,11 @@ How to prevent Replay Attack?
 
 Two types of accounts exist in the Ethereum system:
 1. Externally Owned Accounts: Controlled by user's public-private key pairs, these accounts have a `balance` and a `nonce`.
-2. **Smart Contract Accounts**: In addition to balance and nonce, there are code and storage
+2. **Smart Contract Accounts**: In addition to `balance` and `nonce`, there are code and storage.
     - An address is returned when a contract is created, allowing calls to be made to it. During these calls, the code remains unchanged, but the state is altered.
-    - A contract can call another contract.
-    - Contract Accounts also have a `nonce`, which records the number of times the contract has been invoked.
     - Contract Accounts can't initiate a transaction on their own, all transactions must be initiated by external accounts.
+    - Contract Accounts also have a `nonce`, which records the number of times the contract has been invoked.
+    - A contract can call another contract.
+
+## Why Account-Based Ledger?
+Bitcoin supports account changes with each transaction, but Ethereum is designed to support smart contracts, where the parties involved in the contract require clear and relatively stable accounts. Especially for contract accounts, maintaining a stable state is necessary.
