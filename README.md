@@ -14,13 +14,13 @@ This course focuses on the fundamental concepts and implementation principles of
 ## Course Outline
 
 ### Course Introduction
-- **Introduction**
+1. **Introduction**
 
 ### Bitcoin
 2. **[Cryptographic Principles](./src/BTC/cryptographic-principle.md)**
 3. **[Data Structures](./src/BTC/data-structures.md)**
 4. **[Consensus Protocols](./src/BTC/consensus-protocols.md)**
-5. **Implementation**
+5. **[Implementation](./src/BTC/implementation-of-the-bitcoin-system.md)**
 6. **Network**
 7. **Mining Difficulty**
 8. **Mining**
