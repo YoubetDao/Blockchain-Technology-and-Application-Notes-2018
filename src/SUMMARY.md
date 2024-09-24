@@ -10,6 +10,8 @@
 - [Scripting](BTC/scripting.md)
 - [Q&A](BTC/Q&A.md)
 
-# ETH
 
+
+# ETH
+- [Accounts](BTC/Accounts.md)
 - [Difficulty Adjustment](ETH/difficulty-adjustment.md)
