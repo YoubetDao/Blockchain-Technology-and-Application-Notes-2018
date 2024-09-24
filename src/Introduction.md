@@ -37,7 +37,7 @@ This course focuses on the fundamental concepts and implementation principles of
 17. **Transaction and Receipt Trees**
 18. **GHOST Protocol**
 19. **Mining Algorithms**
-20. **Difficulty Adjustment**
+20. **[Difficulty Adjustment](./ETH/difficulty-adjustment.md)**
 21. **Proof of Stake (PoS)**
 22. **Smart Contracts**
 23. **The DAO Incident**

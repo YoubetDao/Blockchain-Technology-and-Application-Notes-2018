@@ -9,4 +9,9 @@
 - [Consensus Protocols](BTC/consensus-protocols.md)
 - [Scripting](BTC/scripting.md)
 - [Q&A](BTC/Q&A.md)
+
+
+
+# ETH
 - [Accounts](BTC/Accounts.md)
+- [Difficulty Adjustment](ETH/difficulty-adjustment.md)
