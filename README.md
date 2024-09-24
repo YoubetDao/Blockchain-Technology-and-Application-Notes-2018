@@ -22,7 +22,7 @@ This course focuses on the fundamental concepts and implementation principles of
 4. **[Consensus Protocols](./src/BTC/consensus-protocols.md)**
 5. **[Implementation](./src/BTC/implementation-of-the-bitcoin-system.md)**
 6. **Network**
-7. **Mining Difficulty**
+7. **[Mining Difficulty](./BTC/mining-difficulty.md)**
 8. **Mining**
 9. **[Scripting](./src/BTC/scripting.md)**
 10. **Forks**
