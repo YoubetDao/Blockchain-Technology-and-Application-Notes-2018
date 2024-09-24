@@ -32,7 +32,7 @@ This course focuses on the fundamental concepts and implementation principles of
 
 ### Ethereum
 14. **[Overview](./ETH/Overview.md)**
-15. **Accounts**
+15. **[Accounts](./src/ETH/Accounts.md)**
 16. **State Trees**
 17. **Transaction and Receipt Trees**
 18. **GHOST Protocol**
