@@ -13,3 +13,4 @@
 # ETH
 
 - [Difficulty Adjustment](ETH/difficulty-adjustment.md)
+- [Accounts](ETH/Accounts.md)
