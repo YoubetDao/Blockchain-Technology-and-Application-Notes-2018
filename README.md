@@ -25,7 +25,7 @@ This course focuses on the fundamental concepts and implementation principles of
 7. **Mining Difficulty**
 8. **Mining**
 9. **[Scripting](./src/BTC/scripting.md)**
-10. **Forks**
+10. **[Forks](./src/BTC/forks.md)**
 11. **[Q&A](./src/BTC/Q&A.md)**
 12. **Anonymity**
 13. **Reflections on Bitcoin**
