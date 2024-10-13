@@ -10,11 +10,11 @@
 - BTC's block reward mechanism
 ```plain
 BTC
-           □  （orphan block、 still block）   no reward
+            □  （orphan block、 still block）   no reward
          ↙  
   ← □ ← □ ← □ ← □  (longest valid chain)      block reward 以及 tx fee  
          ↖          
-           □  （orphan block、 still block）   no reward                      
+            □  （orphan block、 still block）   no reward                      
 ```
 Only the block that becomes the longest legal chain can obtain the block reward and transaction fee.
 - Reasons why BTC's block reward mechanism is not applicable to ETH
@@ -42,9 +42,9 @@ Miners who mine and publish blocks can still obtain block rewards even if the bl
 ETH
           |←------at most 7 generation------→|
   ←  □ ←  □ ←  □ ←  □ ←  □ ←  □ ←  □ ←  □ ←  □  
-      ↖    ↖    ↖    ↖    ↖    ↖    ↖    ↖ 
-         □    □    □    □    □    □    □    □   
-         0   2/8  3/8  4/8  5/8  6/8  7/8   0
+       ↖   ↖   ↖   ↖   ↖   ↖   ↖       
+         □     □    □    □    □    □    □   (uncle block)
+         0    2/8  3/8  4/8  5/8  6/8  7/8  block reward
 ```
 - Improvement points
     * Expanded the definition of uncle blocks, they don't have to be contemporary uncles and can be uncles from several generations ago.
@@ -107,7 +107,7 @@ ETH
 ETH
           |←------at most 7 generation------→|
   ←  □ ←  □ ←  □ ←  □ ←  □ ←  □ ←  □ ←  □ ←  □  
-            ↖     
-               □ ←  □ ←  □ ←  □ ←  □ ←  □ ←  □
-            reward  0    0    0    0    0    0
+            ↖
+               □ ←  □ ←  □ ←  □ ←  □ ←  □ ←  □    (uncle block)
+              2/8   0    0    0    0    0    0  block reward
 ```
