@@ -75,7 +75,7 @@ ETH
         * Uncle blocks receive a 7/8 block reward reward, and uncle blocks do not receive gas fee.
         * The gas fee accounts for a very small proportion. Most of it is static block reward, similar to the situation in Bitcoin.
         * Ethereum does not stipulate regular halving of block reward. Ethereum's block reward adjustment is not to artificially create scarcity but to adjust mining difficulty to maintain fairness and prevent drastic changes in the total supply of Ether. This adjustment is only a one-time adjustment and will not be continuously lowered in the future.
-        * It is compared to oil and is used for consuming and executing smart contracts. The metaphor is not completely appropriate because oil is gone after it is spent. In Ethereum, when executing a contract, only the gas is transferred from one account to another.
+        * It is compared to oil and is used for consuming and executing smart contracts. The metaphor is not completely appropriate because oil is gone after it is spent. In Ethereum, when executing a contract, the gas fee is transferred from one account to another.
 ### 3 Q & A
 
 
@@ -90,7 +90,7 @@ ETH
 
 **Q** When an uncle block is included, should the transactions in the uncle block be executed?
 
-**A** They should not be executed. Ethereum and Bitcoin are transaction-driven state machines. Every time a new block is published on the chain, the current state will be transferred to the next state. There may be conflicts between transactions on the main chain and uncle blocks. Ethereum prevents double-spending attacks through account balances. Two different transactions may conflict. If the transactions of uncle blocks are executed, some transactions may become illegal transactions. The uncle block itself is not necessarily illegal. After executing the parent block and then executing the uncle block, it may become illegal.
+**A** They should not be executed. Ethereum and Bitcoin are transaction-driven state machines. Every time a new block is published on the chain, the current state will be transferred to the next state. There may be conflicts between transactions on the main chain and uncle blocks. Ethereum prevents double-spending attacks through account balances. If the transactions of uncle blocks are executed, some transactions may become illegal transactions. The uncle block itself is not necessarily illegal. After executing the parent block and then executing the uncle block, it may become illegal.
 
 **Q** Is it possible to check which transactions in the uncle block are legal and only execute legal transactions?
 
@@ -102,8 +102,7 @@ ETH
 
 **Q** If there is a series of blocks following after a fork, should the entire chain be regarded as uncle blocks and rewarded to encourage merging?
 
-**A** Only the first block has a reward, and the rest have no rewards. The cost of forking attack is too low. If the entire chain is rewarded and the forking attack is successful and the transaction is rolled back, otherwise, block rewards can still be obtained. Then the cost of forking attack will be greatly reduced.
-
+**A** Only the first block has a reward, and the rest have no rewards. If the entire chain is rewarded，The cost of forking attack will be greatly reduced. If the forking attack is successful, the transaction will be rolled back. Otherwise, uncle block rewards can still be obtained.
 ```plain
 ETH
           |←------at most 7 generation------→|
