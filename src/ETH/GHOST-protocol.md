@@ -24,7 +24,7 @@ Only the block that becomes the longest legal chain can obtain the block reward 
 #### 2.1 Core idea
 Miners who mine and publish blocks can still obtain block rewards even if the blocks are invalidated.
 #### 2.2 Initial version protocol
--  Content
+- Content
 	* Definition of uncle block
         * Ethereum calls orphan blocks and still blocks in BTC as uncle blocks. When the current block is published, it can contain transactions in uncle blocks.
 	* Uncle block reward
@@ -50,7 +50,7 @@ ETH
     * Expanded the definition of uncle blocks, they don't have to be contemporary uncles and can be uncles from several generations ago.
 -  Purpose
     * Solve the defects existing in the initial version protocol, solve the temporary forks in the system, and encourage fork merging.
-- Protocol points
+- Content
 	* Definition of uncle block
         * A block that has a common ancestor within 7 generations from the current block.
 	* Uncle block reward
