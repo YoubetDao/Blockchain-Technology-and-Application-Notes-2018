@@ -10,11 +10,11 @@
 - BTC's block reward mechanism
 ```plain
 BTC
-            □  （orphan block、 still block）   no reward
+            □  (orphan block、 still block)   no reward
          ↙  
   ← □ ← □ ← □ ← □  (longest valid chain)      block reward 以及 tx fee  
          ↖          
-            □  （orphan block、 still block）   no reward                      
+            □  (orphan block、 still block)   no reward                      
 ```
 Only the block that becomes the longest legal chain can obtain the block reward and transaction fee.
 - Reasons why BTC's block reward mechanism is not applicable to ETH
