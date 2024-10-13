@@ -40,7 +40,7 @@ This course focuses on the fundamental concepts and implementation principles of
 20. **[Difficulty Adjustment](./src/ETH/difficulty-adjustment.md)**
 21. **Proof of Stake (PoS)**
 22. **Smart Contracts**
-23. **The DAO Incident**
+23. **[The DAO Incident](./src/ETH/the-dao-incident.md)**
 24. **Reflections on Ethereum**
 25. **Ethereum Classic (ETC)**
 
