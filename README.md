@@ -31,11 +31,11 @@ This course focuses on the fundamental concepts and implementation principles of
 13. **Reflections on Bitcoin**
 
 ### Ethereum
-14. **[Overview](./ETH/Overview.md)**
+14. **[Overview](./src/ETH/Overview.md)**
 15. **Accounts**
 16. **State Trees**
 17. **Transaction and Receipt Trees**
-18. **GHOST Protocol**
+18. **[GHOST Protocol](./src/ETH/GHOST-protocol.md)**
 19. **Mining Algorithms**
 20. **[Difficulty Adjustment](./src/ETH/difficulty-adjustment.md)**
 21. **Proof of Stake (PoS)**
