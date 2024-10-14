@@ -32,7 +32,7 @@ This course focuses on the fundamental concepts and implementation principles of
 
 ### Ethereum
 14. **[Overview](./ETH/Overview.md)**
-15. **Accounts**
+15. **[Accounts](./src/ETH/Accounts.md)**
 16. **State Trees**
 17. **Transaction and Receipt Trees**
 18. **GHOST Protocol**
@@ -40,7 +40,7 @@ This course focuses on the fundamental concepts and implementation principles of
 20. **[Difficulty Adjustment](./src/ETH/difficulty-adjustment.md)**
 21. **Proof of Stake (PoS)**
 22. **Smart Contracts**
-23. **The DAO Incident**
+23. **[The DAO Incident](./src/ETH/the-dao-incident.md)**
 24. **Reflections on Ethereum**
 25. **Ethereum Classic (ETC)**
 
