@@ -42,7 +42,7 @@ This course focuses on the fundamental concepts and implementation principles of
 22. **Smart Contracts**
 23. **The DAO Incident**
 24. **Reflections on Ethereum**
-25. **Ethereum Classic (ETC)**
+25. **[Beauty Chain Incident](./src/ETH/beauty-chain-incident.md)**
 
 ## Course Materials
 
