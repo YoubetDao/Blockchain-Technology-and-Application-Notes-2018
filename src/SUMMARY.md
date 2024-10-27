@@ -14,4 +14,5 @@
 
 - [Difficulty Adjustment](ETH/difficulty-adjustment.md)
 - [Accounts](ETH/Accounts.md)
+- [Proof Of Stake](ETH/proof-of-stake(pos).md)
 - [The DAO Incident](ETH/the-dao-incident.md)

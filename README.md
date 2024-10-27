@@ -38,7 +38,7 @@ This course focuses on the fundamental concepts and implementation principles of
 18. **GHOST Protocol**
 19. **Mining Algorithms**
 20. **[Difficulty Adjustment](./src/ETH/difficulty-adjustment.md)**
-21. **Proof of Stake (PoS)**
+21. **[Proof of Stake (PoS)](./src/ETH/proof-of-stake(pos).md)**
 22. **Smart Contracts**
 23. **[The DAO Incident](./src/ETH/the-dao-incident.md)**
 24. **Reflections on Ethereum**
