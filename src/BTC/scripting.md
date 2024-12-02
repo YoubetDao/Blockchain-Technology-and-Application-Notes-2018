@@ -78,18 +78,18 @@ The following script instructions do not include the `OP` prefix. For example, `
 These instructions are essential for creating and validating scripts in Bitcoin transactions.
 ### P2PK(Pay to Public Key)
 
-### Input Script
+#### Input Script
 ```asm
 PUSHDATA(Sig) // Sig is the signature
 ```
 
-### Output Script
+#### Output Script
 ```asm
 PUSHDATA(PubKey) // PubKey is the recipient's public key
 CHECKSIG // Used to check the signature; returns true if correct
 ```
 
-### Execution Steps
+#### Execution Steps
 This process ensures that only valid transactions are accepted in the Bitcoin network.
 ```
 instruction         |->  PUSHDATA(Sig)   |   PUSHDATA(Sig)       |   PUSHDATA(Sig)
@@ -108,13 +108,13 @@ stack               |                    |                       |
 - The main difference from the previous method is that the output does not provide the recipient's public key directly; instead, it provides the hash of the public key.
 - This helps prevent impersonation, ensuring that one cannot use their own public key to masquerade as the recipient's public key.
 
-### Input Script
+#### Input Script
 ```asm
 PUSHDATA(Sig)      // Push the signature onto the stack
 PUSHDATA(PubKey)   // Push the public key onto the stack
 ```
 
-### Output Script
+#### Output Script
 ```asm
 DUP                // Duplicate the top element of the stack
 HASH160            // Hash the top element and push the hash onto the stack
@@ -127,7 +127,7 @@ CHECKSIG          // Verify the signature with the public key
 
 P2SH utilizes the BIP16 proposal, allowing transactions to be sent to a script hash instead of a public key hash.
 
-### Input Script
+#### Input Script
 ```asm
 ...
 PUSHDATA(Sig)               // Push the signature onto the stack
@@ -135,7 +135,7 @@ PUSHDATA(Sig)               // Push the signature onto the stack
 PUSHDATA(serialized redeemScript) // Push the serialized redeem script onto the stack
 ```
 
-### Output Script
+#### Output Script
 ```asm
 HASH160                       // Hash the redeem script
 PUSHDATA(redeemScriptHash)    // Push the hash of the redeem script onto the stack
